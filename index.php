@@ -13,7 +13,7 @@
   body {
     display: flex;
     justify-content: center;
-    background-color: #C88EA7;
+    background-color: #A7ECEE;
   }
 
   h1 {
@@ -27,8 +27,8 @@
 
   .card {
     margin-top: 50px;
-    background-color: #E7CBCB;
-    width: 500px;
+    background-color: #99DBF5;
+    width: 800px;
     height: 300px;
   }
 </style>
@@ -40,14 +40,14 @@
       <h1>KALKULATOR</h1>
       <br>
       <form method="POST">
-        <input type="text" name="x" size="3"> &nbsp;
+        <input type="number" name="x" size="31"> &nbsp;
         <select name="operasi">
           <option value="tambah">+</option>
           <option value="kali">x</option>
           <option value="kurang">-</option>
           <option value="bagi">/</option>
         </select> &nbsp;
-        <input type="text" name="y" size="3"> &nbsp;
+        <input type="number" name="y" size="3"> &nbsp;
         <label>=</label> &nbsp;
         <input type="submit" value="Hitung">
       </form>
